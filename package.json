@@ -1,5 +1,5 @@
 {
-  "name": "iconizr",
+  "name": "iconizr-svg",
   "version": "1.0.0",
   "description": "A customizable SVG icon generator",
   "main": "dist/main.js",

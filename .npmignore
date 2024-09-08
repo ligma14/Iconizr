@@ -2,3 +2,4 @@
    test/
    tsconfig.json
    .gitignore
+   .html
