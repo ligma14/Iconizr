@@ -1,0 +1,20 @@
+{
+  "name": "iconizr",
+  "version": "1.0.0",
+  "description": "A customizable SVG icon generator",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx test/test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["svg", "icon", "generator"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}
