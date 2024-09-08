@@ -7,9 +7,9 @@ Iconizr is a customizable SVG icon generator that creates unique, grid-based ico
 
 Install Iconizr using npm:
 
-bash
+```
 npm install iconizr
-
+```
 ## Usage
 
 Here's a basic example of how to use Iconizr:
@@ -51,6 +51,7 @@ Generates an SVG icon based on the input string.
 Generate multiple icons:
 
 javascript
+```
 const iconizr = new Iconizr({ size: 50, gridSize: 6 });
 const icons = [
 iconizr.generate('user1'),
@@ -60,6 +61,7 @@ iconizr.generate('user3')
 icons.forEach(({ svg }, index) => {
 console.log(Icon ${index + 1}:, svg);
 });
+```
 
 ## Contributing
 
