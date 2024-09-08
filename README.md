@@ -1,29 +1,45 @@
+# Iconizr-svg
 
-# Iconizr
+![Example Iconizr Results](result-example.png)
 
-Iconizr is a customizable SVG icon generator that creates unique, grid-based icons from input strings.
+Iconizr-svg is a customizable SVG icon generator that creates unique, grid-based icons from input strings.
+
+## Features
+
+- **Unique Icon Generation**: Creates distinct icons based on input strings, perfect for user avatars or identicons.
+- **Customizable Grid Size**: Adjust the complexity of the icon by changing the grid dimensions.
+- **Configurable Icon Size**: Set the overall size of the generated SVG icon.
+- **Random Color Generation**: Automatically generates a diverse range of colors for each cell in the grid.
+- **Opacity Control**: Fine-tune the visual depth of icons by setting minimum and maximum opacity levels.
+- **Consistent Randomness**: Use seed strings to ensure the same input always generates the same icon.
+- **SVG Output**: Generate clean, scalable SVG code ready for use in web applications.
+- **Lightweight**: Minimal dependencies for easy integration into any project.
+- **TypeScript Support**: Fully written in TypeScript for better developer experience and type safety.
 
 ## Installation
 
 Install Iconizr using npm:
 
 ```
-npm install iconizr
+npm install iconizr-svg
 ```
 ## Usage
 
-Here's a basic example of how to use Iconizr:
+Here's a basic example of how to use iconizr-svg:
 
 javascript
 ```
-import Iconizr from 'iconizr';
+import Iconizr from 'iconizr-svg';
+
 const iconizr = new Iconizr({
 size: 100,
 gridSize: 8,
 minOpacity: 0.3,
 maxOpacity: 0.9
 });
+
 const { svg } = iconizr.generate('example');
+
 console.log(svg);
 ```
 
@@ -55,11 +71,13 @@ Generate multiple icons:
 javascript
 ```
 const iconizr = new Iconizr({ size: 50, gridSize: 6 });
+
 const icons = [
 iconizr.generate('user1'),
 iconizr.generate('user2'),
 iconizr.generate('user3')
 ];
+
 icons.forEach(({ svg }, index) => {
 console.log(Icon ${index + 1}:, svg);
 });
