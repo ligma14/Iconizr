@@ -15,6 +15,7 @@ npm install iconizr
 Here's a basic example of how to use Iconizr:
 
 javascript
+```
 import Iconizr from 'iconizr';
 const iconizr = new Iconizr({
 size: 100,
@@ -24,6 +25,7 @@ maxOpacity: 0.9
 });
 const { svg } = iconizr.generate('example');
 console.log(svg);
+```
 
 This will output an SVG string that you can use in your application.
 

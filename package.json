@@ -1,7 +1,7 @@
 {
   "name": "iconizr-svg",
   "version": "1.0.0",
-  "description": "A customizable SVG icon generator",
+  "description": "A customizable SVG identicon generator",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "scripts": {
