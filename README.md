@@ -11,14 +11,11 @@ Iconizr-svg is a customizable SVG icon generator that creates unique, grid-based
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [API](#api)
 - [Examples](#examples)
 - [Contributing](#contributing)
-- [CI/CD Pipeline](#cicd-pipeline)
 - [License](#license)
 
 ## Features
@@ -33,11 +30,6 @@ Iconizr-svg is a customizable SVG icon generator that creates unique, grid-based
 - **Lightweight**: Minimal dependencies for easy integration into any project.
 - **TypeScript Support**: Fully written in TypeScript for better developer experience and type safety.
 
-## Demo
-
-![Iconizr Demo](demo.gif)
-
-Check out the [live demo](https://your-demo-link.com) to see Iconizr-svg in action!
 
 ## Installation
 
