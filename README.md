@@ -1,10 +1,11 @@
 # Iconizr-svg
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/your-username/Iconizr-svg/ci.yml?branch=main)
+![Example Iconizr Results](result-example.png)
+
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ligma14/Iconizr-svg/ci.yml?branch=main)
 ![npm Version](https://img.shields.io/npm/v/iconizr-svg)
 ![License](https://img.shields.io/npm/l/iconizr-svg)
 
-![Example Iconizr Results](result-example.png)
 
 Iconizr-svg is a customizable SVG icon generator that creates unique, grid-based icons from input strings. Perfect for user avatars, identicons, and more!
 
