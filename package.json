@@ -1,6 +1,6 @@
 {
   "name": "@ligma14/iconizr-svg",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A customizable SVG identicon generator",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
